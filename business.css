@@ -409,96 +409,11 @@ max-width: 50%;
 
 
 
-/* herder media query*/
-@media only screen and (max-width: 768px){
-  .section-container{
-    width: 100%;
-  }
-
-  #click:checked ~ ul{
-    left: 0;
-  }
-
-  #click:checked ~ label .close-btn{
-    display: block;
-    position: absolute;
-    top: 50px;
-    left: 80%;
-  }
-
-  #click:checked ~ label .menu-btn{
-    display: none;
-  }
-
-  nav{
-    padding: 0 20px;
-  }
-
-  label .menu-btn{
-    display: block;
-    position: absolute;
-    top: 50px;
-    left: 80%;
-  }
-
-  nav ul li{
-    display: block;
-    width: 20%;
-    text-align: center;
-    margin: 0 auto;
-    padding: 5px 0;
-  }
-  nav ul li a{
-    font-size: 20px;
-  }
-
-  nav ul{
-    display: block;
-    background: #101010;
-    position: absolute;
-    top: 100px;
-    left: -100%;
-    width: 100%;
-    height: 40vh;
-    text-align: center;
-    transition: all 0.8s ease-in-out;
-    z-index: 999;
-  }
-
-  /*hero section*/
-
-  
-.hero-section .hero-container{
-  flex-direction: column;
-}
-
-.hero-container .hero-text{
-  max-width: 100%;
-}
-
-.hero-container .hero-text h2{
-  font-size: 40px;
-}
-
-.hero-container .hero-img{
-  max-width: 100%;
-}
-
-.hero-container .hero-img img{
-  width: 100%;
-}
-
-.hero-text .social-icon{
-  margin-top: 80px;
-}
-
-
-}
-
 @media only screen and (max-width: 1368px){
 
   .section-container{
     width: 100%;
+    padding: 0 5%;
   }
 
   #click:checked ~ ul{
@@ -574,6 +489,154 @@ max-width: 50%;
 
 .hero-text .social-icon{
   margin-top: 80px;
+}
+
+
+}
+
+
+
+/* herder media query*/
+@media only screen and (max-width: 768px){
+  .section-container{
+    width: 100%;
+    padding: 0 5%;
+  }
+
+  #click:checked ~ ul{
+    left: 0;
+  }
+
+  #click:checked ~ label .close-btn{
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 80%;
+  }
+
+  #click:checked ~ label .menu-btn{
+    display: none;
+  }
+
+  nav{
+    padding: 0 20px;
+  }
+
+  label .menu-btn{
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 80%;
+  }
+
+  nav ul li{
+    display: block;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 0;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+
+  nav ul{
+    display: block;
+    background: #101010;
+    position: absolute;
+    top: 100px;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    transition: all 0.8s ease-in-out;
+    z-index: 999;
+  }
+
+  /*hero section*/
+
+  
+.hero-section .hero-container{
+  flex-direction: column;
+}
+
+.hero-container .hero-text{
+  max-width: 100%;
+}
+
+.hero-container .hero-text h2{
+  font-size: 40px;
+}
+
+.hero-container .hero-img{
+  max-width: 100%;
+}
+
+.hero-container .hero-img img{
+  width: 100%;
+}
+
+.hero-text .social-icon{
+  margin-top: 80px;
+}
+
+/* about us section meadi part  */
+
+.about-us .about-container{
+  flex-direction: column;
+}
+
+.about-container .about-text{
+  max-width: 100%;
+}
+
+.about-container .about-image-section{
+  max-width: 100%;
+  
+}
+
+.about-image-section .about-service-item{
+  width: calc(100% / 1 - 30px);
+  
+}
+
+.section-container .about-countdown{
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.about-countdown .countdown-img{
+  max-width: 100%;
+}
+
+.about-countdown .count-items{
+  width: 100%;
+  margin: 12px 0;
+}
+
+.about-us .about-2n-part{
+	margin: 50px 0;
+  flex-direction: column;
+}
+
+.about-us .about-2n-part .about-2n-part-img-section{
+  max-width: 100%;
+  }
+
+  .about-2n-part .about-2nd-prt-text-section{
+    max-width: 100%;
+  }
+
+
+  .our-team-container .section-img{
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.our-team-container .our-team-text-part{
+  width: 100%;
+  
 }
 
 
